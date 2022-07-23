@@ -8,6 +8,9 @@ namespace FindMaximumNumber
 {
     public class MaximumNumberCheck
     {
+        /// <summary>
+        /// This is method is created for Maximum Integer Number.
+        /// </summary>
         public int MaximumIntegerNumber(int firstvalue, int secondvalue, int thirdvalue)
         {
             if(firstvalue.CompareTo(secondvalue) > 0 && firstvalue.CompareTo(thirdvalue) > 0)
